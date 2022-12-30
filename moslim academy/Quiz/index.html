@@ -1,0 +1,83 @@
+<!-- Created By hprogrammer - www.netcopy.ir  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آکادمی مسلم | کوییز</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>کوییز را شروع کنید</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>برخی از قوانین این مسابقه</span></div>
+        <div class="info-list">
+            <div class="info">1. برای هر سوال فقط <span>15 ثانیه</span> وقت دارید</div>
+            <div class="info">2. هنگامی که پاسخ خود را انتخاب کردید ، قابل بازگشت نیست.</div>
+            <div class="info">3. با تمام شدن زمان نمی توانید هیچ گزینه ای را انتخاب کنید.</div>
+            <div class="info">4. هنگام بازی نمی توانید از مسابقه خارج شوید.</div>
+            <div class="info">5- بر اساس پاسخ های صحیح خود امتیاز کسب خواهید کرد.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">خروج</button>
+            <button class="restart">ادامه هید</button>
+        </div>
+        <p style="text-align: center;">طراحی توسط <a href="https://www.instagram.com/h7sein._.salehi/">حسین علی صالحی </a></p>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">برنامه هفته وار مسابقه</div>
+            <div class="timer">
+                <div class="time_left_txt">زمان مانده</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">سوال بعدی</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">مسابقه را کامل کردید!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">مسابقه مجدد</button>
+            <button class="quit">مسابقه را ترک کنید</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

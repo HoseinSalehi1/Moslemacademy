@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-linear-gradient(136deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+}
+.wrapper{
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
+.wrapper .img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.wrapper .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  clip-path: circle(0% at 0% 100%);
+  transition: all 0.7s;
+}
+#one:checked ~ .img-1 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#two:checked ~ .img-1 img,
+#two:checked ~ .img-2 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#three:checked ~ .img-1 img,
+#three:checked ~ .img-2 img,
+#three:checked ~ .img-3 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#four:checked ~ .img-1 img,
+#four:checked ~ .img-2 img,
+#four:checked ~ .img-3 img,
+#four:checked ~ .img-4 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#five:checked ~ .img-1 img,
+#five:checked ~ .img-2 img,
+#five:checked ~ .img-3 img,
+#five:checked ~ .img-4 img,
+#five:checked ~ .img-5 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#six:checked ~ .img-1 img,
+#six:checked ~ .img-2 img,
+#six:checked ~ .img-3 img,
+#six:checked ~ .img-4 img,
+#six:checked ~ .img-5 img,
+#six:checked ~ .img-6 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#seven:checked ~ .img-1 img,
+#seven:checked ~ .img-2 img,
+#seven:checked ~ .img-3 img,
+#seven:checked ~ .img-4 img,
+#seven:checked ~ .img-5 img,
+#seven:checked ~ .img-6 img,
+#seven:checked ~ .img-7 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#eight:checked ~ .img-1 img,
+#eight:checked ~ .img-2 img,
+#eight:checked ~ .img-3 img,
+#eight:checked ~ .img-4 img,
+#eight:checked ~ .img-5 img,
+#eight:checked ~ .img-6 img,
+#eight:checked ~ .img-7 img,
+#eight:checked ~ .img-8 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#nine:checked ~ .img-1 img,
+#nine:checked ~ .img-2 img,
+#nine:checked ~ .img-3 img,
+#nine:checked ~ .img-4 img,
+#nine:checked ~ .img-5 img,
+#nine:checked ~ .img-6 img,
+#nine:checked ~ .img-7 img,
+#nine:checked ~ .img-8 img,
+#nine:checked ~ .img-9 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#ten:checked ~ .img-1 img,
+#ten:checked ~ .img-2 img,
+#ten:checked ~ .img-3 img,
+#ten:checked ~ .img-4 img,
+#ten:checked ~ .img-5 img,
+#ten:checked ~ .img-6 img,
+#ten:checked ~ .img-7 img,
+#ten:checked ~ .img-8 img,
+#ten:checked ~ .img-9 img,
+#ten:checked ~ .img-10 img{
+  clip-path: circle(150% at 0% 100%);
+}
+
+#eleven:checked ~ .img-1 img,
+#eleven:checked ~ .img-2 img,
+#eleven:checked ~ .img-3 img,
+#eleven:checked ~ .img-4 img,
+#eleven:checked ~ .img-5 img,
+#eleven:checked ~ .img-6 img,
+#eleven:checked ~ .img-7 img,
+#eleven:checked ~ .img-8 img,
+#eleven:checked ~ .img-9 img,
+#eleven:checked ~ .img-10 img,
+#eleven:checked ~ .img-11 img,
+#eleven:checked ~ .img-12 img{
+  clip-path: circle(150% at 0% 100%);
+}
+
+#twelve:checked ~ .img-1 img,
+#twelve:checked ~ .img-2 img,
+#twelve:checked ~ .img-3 img,
+#twelve:checked ~ .img-4 img,
+#twelve:checked ~ .img-5 img,
+#twelve:checked ~ .img-6 img,
+#twelve:checked ~ .img-7 img,
+#twelve:checked ~ .img-8 img,
+#twelve:checked ~ .img-9 img,
+#twelve:checked ~ .img-10 img,
+#twelve:checked ~ .img-11 img,
+#twelve:checked ~ .img-12 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#thirteen:checked ~ .img-1 img,
+#thirteen:checked ~ .img-2 img,
+#thirteen:checked ~ .img-3 img,
+#thirteen:checked ~ .img-4 img,
+#thirteen:checked ~ .img-5 img,
+#thirteen:checked ~ .img-6 img,
+#thirteen:checked ~ .img-7 img,
+#thirteen:checked ~ .img-8 img,
+#thirteen:checked ~ .img-9 img,
+#thirteen:checked ~ .img-10 img,
+#thirteen:checked ~ .img-11 img,
+#thirteen:checked ~ .img-13 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#fourteen:checked ~ .img-1 img,
+#fourteen:checked ~ .img-2 img,
+#fourteen:checked ~ .img-3 img,
+#fourteen:checked ~ .img-4 img,
+#fourteen:checked ~ .img-5 img,
+#fourteen:checked ~ .img-6 img,
+#fourteen:checked ~ .img-7 img,
+#fourteen:checked ~ .img-8 img,
+#fourteen:checked ~ .img-9 img,
+#fourteen:checked ~ .img-10 img,
+#fourteen:checked ~ .img-11 img,
+#fourteen:checked ~ .img-12 img,
+#fourteen:checked ~ .img-13 img,
+#fourteen:checked ~ .img-14 img{
+  clip-path: circle(150% at 0% 100%);
+}
+#fifteen:checked ~ .img-1 img,
+#fifteen:checked ~ .img-3 img,
+#fifteen:checked ~ .img-3 img,
+#fifteen:checked ~ .img-4 img,
+#fifteen:checked ~ .img-5 img,
+#fifteen:checked ~ .img-6 img,
+#fifteen:checked ~ .img-7 img,
+#fifteen:checked ~ .img-8 img,
+#fifteen:checked ~ .img-9 img,
+#fifteen:checked ~ .img-10 img,
+#fifteen:checked ~ .img-11 img,
+#fifteen:checked ~ .img-12 img,
+#fifteen:checked ~ .img-13 img,
+#fifteen:checked ~ .img-14 img,
+#fifteen:checked ~ .img-15 img{
+  clip-path: circle(150% at 0% 100%);
+}
+
+
+.wrapper .sliders{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  display: flex;
+}
+.wrapper .sliders label{
+  border: 2px solid rgb(142,197,252);
+  width: 13px;
+  height: 13px;
+  margin: 0 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#one:checked ~ .sliders label.one,
+#two:checked ~ .sliders label.two,
+#three:checked ~ .sliders label.three,
+#four:checked ~ .sliders label.four,
+#five:checked ~ .sliders label.five{
+  width: 35px;
+  border-radius: 14px;
+  background: rgb(142,197,252);
+}
+.sliders label:hover{
+  background: rgb(142,197,252);
+}
+input[type="radio"]{
+  display: none;
+}
